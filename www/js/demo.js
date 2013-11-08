@@ -33,7 +33,44 @@ var inbox = [
             Subject: "Out tonight?",
             Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
             Time: "10:14"
+        },
+        {
+            ID: 6,
+            From: "Joe Harper",
+            Subject: "Reunion",
+            Text: "Hi Tom, my aunt comes for a visit this Saturday, so I can't come back to St. Pete...",
+            Time: "20:09"
+        },
+        {
+            ID: 7,
+            From: "Becky Thatcher",
+            Subject: "Out tonight?",
+            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            Time: "20:14"
+        },
+        {
+            ID: 8,
+            From: "Ian Cohen",
+            Subject: "Fishing weekend",
+            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            Time: "20:19"
+        },
+        {
+            ID: 9,
+            From: "Lara Sullivan",
+            Subject: "I'm sorry, Tom",
+            Text: "Hi Tom, my aunt comes for a visit this Saturday, so I can't come back to St. Pete...",
+            Time: "22:09"
+        },
+        {
+            ID: 10,
+            From: "Robert Smith",
+            Subject: "Weekly review",
+            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            Time: "22:25"
         }
+
+
     ];
 
     function onOpen(e) {
