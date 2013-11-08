@@ -9,6 +9,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/kendo.all.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/reply.js"></script>
 </head>
 <body>
     <div id="forms" data-role="view" data-title="Reply" data-init="initForm" data-use-native-scrolling="true">
@@ -21,20 +22,14 @@
         </label>
         </li>
         <li>
-        <label>
-          From:
-          <input type="email" value="John@Smith.com" />
-        </label>
-        </li>
-        <li>
         <label>Subject:
           <input type="text" value="Contact network" />
         </label>
         </li>
         <li>
         <label>
-          Message:
-          <textarea rows="4" cols="40" style="resize: none">Greetings</textarea>
+          Message: 
+          <textarea rows="4" cols="50" style="resize: none"></textarea>
         </label>
         </li>
       </ul>
@@ -50,22 +45,7 @@
     </header>
   </div>
 <script>
-    function initForm() {
-        var body = $(".km-pane");
-
-        if (kendo.ui.DropDownList) {
-            $("#dropdown").kendoDropDownList({
-                // The options are needed only for the desktop demo, remove them for mobile.
-                popup: { appendTo: body },
-                animation: { open: { effects: body.hasClass("km-android") ? "fadeIn" : body.hasClass("km-ios") || body.hasClass("km-wp") ? "slideIn:up" : "slideIn:down" } }
-            });
-        }
-
-        if (kendo.ui.Slider) {
-            $("#slider").kendoSlider({ tooltip: { enabled: false } });
-        }
-    }
-</script>
+    </script>
 
 <style scoped>
     #forms input:not([type=checkbox]):not([type=radio]),
