@@ -20,13 +20,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Basic usage</title>
+    <title>Demo</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <script type="text/javascript" src="phonegap.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/kendo.mobile.min.js"></script>
     <script src="js/console.js"></script>
-    <link href="cs/kendo.common.min.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+    <link href="css/kendo.common.min.css" rel="stylesheet" />
     <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="css/demo.css" rel="stylesheet" />
 </head>
 <body>
     <a href="../index.html">Back</a>
@@ -111,81 +115,12 @@
 </script>
 
 <style scoped>
-    .reply {
-        float: right;
-    }
-
-    .inboxList
-    {
-        font-size: .8em;
-        background: #000;
-    }
-    .km-ios .km-list>li {
-        background: #0F0F0F;
-    }
-    .km-ios #actionsheet-view .km-listview
-    {
-        background: url(img/pattern1.png);
-    }
-
-    .inboxList p,
-    .inboxList h2,
-    .inboxList h3
-    {
-        margin: 5px 2px;
-    }
-
-    .inboxList p,
-    .inboxList h3
-    {
-        color: #777;
-    }
-    
-    .inboxList h2
-    {
-        color: #DDE3E5;
-    }
-    .inboxList h3.time
-    {
-        color: #369;
-        float: left;
-        margin-right: 10px;
-    }
-
-    #actionResult
-    {
-        padding: 10px;
-        background: rgba(127,127,127,.5);
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        margin: 0;
-    }
-    
-    .km-ios #actionsheet-view .km-navbar
-    {
-        background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(0.06, rgba(0, 0, 0, 0.45)), color-stop(0.5, rgba(0, 0, 0, 0.2)), color-stop(0.5, rgba(0, 0, 0, 0.15)), color-stop(1, rgba(100, 100, 100, 0))), url(img/pattern7.png);
-        background: -moz-linear-gradient(center top , rgba(0,0,0,0.5), rgba(0, 0, 0, 0.45) 6%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.15) 50%, rgba(100, 100, 100, 0)), url(img/pattern7.png);
-	}
-
-    .km-ios #actionsheet-view .km-navbar .km-button
-    {
-        background-color: #4A88B5;
-    }
-	
-	.km-ios #actionsheet-view .km-content .km-button {
-        background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(0.06, rgba(0, 0, 0, 0.45)), color-stop(0.5, rgba(0, 0, 0, 0.2)), color-stop(0.5, rgba(0, 0, 0, 0.15)), color-stop(1, rgba(100, 100, 100, 0))), url(img/pattern1.png);
-        background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45) 6%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4) 50%, rgba(100, 100, 100, 0)), url(img/pattern1.png);
-	}
-	.km-tablet .km-ios #actionsheet-view .km-view-title {
-        color: #fff;
-        text-shadow: 0 -1px rgba(0,0,0,.5);
-    }
-
-    body, html { background: #000; }
-</style>
+    </style>
 
 
-    <script>
-        new kendo.mobile.Application($(document.body));    </script>
+<script>
+  app.initialize();
+  new kendo.mobile.Application($(document.body));  
+</script>
 </body>
 </html>
