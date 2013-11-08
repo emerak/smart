@@ -36,37 +36,37 @@ var inbox = [
         },
         {
             ID: 6,
-            From: "Joe Harper",
-            Subject: "Reunion",
-            Text: "Hi Tom, my aunt comes for a visit this Saturday, so I can't come back to St. Pete...",
+            From: "ATT Services",
+            Subject: "Credit card",
+            Text: "Your credit card has been delivered, if you want to know more about our online...",
             Time: "20:09"
         },
         {
             ID: 7,
-            From: "Becky Thatcher",
-            Subject: "Out tonight?",
-            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            From: "Times",
+            Subject: "Newsletter",
+            Text: "If you no longer wish to receive these emails, please reply to this message with...",
             Time: "20:14"
         },
         {
             ID: 8,
-            From: "Ian Cohen",
-            Subject: "Fishing weekend",
-            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            From: "Sam Douglas",
+            Subject: "Re: Regarding org chart changes",
+            Text: "Take a deeper look into the latest versions of Chart.org, we have improved the desig...",
             Time: "20:19"
         },
         {
             ID: 9,
             From: "Lara Sullivan",
-            Subject: "I'm sorry, Tom",
-            Text: "Hi Tom, my aunt comes for a visit this Saturday, so I can't come back to St. Pete...",
+            Subject: "Photo of the week",
+            Text: "This photo was taken in Marrakesh out in the remote countryside. I used a Canon...",
             Time: "22:09"
         },
         {
             ID: 10,
             From: "Robert Smith",
             Subject: "Weekly review",
-            Text: "Honey, wanna go out tonight to grab some chicken? My weekly vouchers for cooking...",
+            Text: "Hello, I sent your report back, I've made some styling corrections but despite of ...",
             Time: "22:25"
         }
 
