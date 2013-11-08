@@ -1,9 +1,22 @@
-#actionResult
-    {
-        padding: 10px;
-        background: rgba(127,127,127,.5);
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        margin: 0;
-    }
+#forms input:not([type=checkbox]):not([type=radio]),
+#forms select,
+#forms .k-dropdown
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.km-button {
+  background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(0.06, rgba(0, 0, 0, 0.45)), color-stop(0.5, rgba(0, 0, 0, 0.2)), color-stop(0.5, rgba(0, 0, 0, 0.15)), color-stop(1, rgba(100, 100, 100, 0))), url(img/pattern1.png);
+  background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45) 6%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4) 50%, rgba(100, 100, 100, 0)), url(img/pattern1.png);
+  margin-right: 15px;
+}
+
+.buttons {
+  float:right;
+}
+.buttons li{
+  display: inline;
+}
 

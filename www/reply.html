@@ -12,7 +12,7 @@
     <script src="js/reply.js"></script>
 </head>
 <body>
-    <div id="forms" data-role="view" data-title="Reply" data-init="initForm" data-use-native-scrolling="true">
+  <div id="forms" data-role="view" data-title="Reply" data-init="initForm" data-use-native-scrolling="true">
     <form action="./index.html">
       <ul data-role="listview" data-style="inset">
         <li>
@@ -28,13 +28,16 @@
         </li>
         <li>
         <label>
-          Message: 
+          Message:
           <textarea rows="4" cols="50" style="resize: none"></textarea>
         </label>
         </li>
       </ul>
-    </form>
-  </div>
+      <ul class="buttons">
+        <li><a class="button" data-role="button" href="" class="km-button">Send</a></li>
+        <li><a class="button" data-role="button" href="" class="km-button">Discart</a></li>
+      </ul>
+  </form>
   <div data-role="layout" data-id="mobile-view">
     <header data-role="header">
     <div data-role="navbar">
@@ -44,26 +47,39 @@
     </div>
     </header>
   </div>
-<script>
-    </script>
+  <script>
+  </script>
 
-<style scoped>
+  <style scoped>
     #forms input:not([type=checkbox]):not([type=radio]),
     #forms select,
     #forms .k-dropdown
     {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 50%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 50%;
     }
-</style>
+
+    .km-button {
+      background: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, rgba(0, 0, 0, 0.5)), color-stop(0.06, rgba(0, 0, 0, 0.45)), color-stop(0.5, rgba(0, 0, 0, 0.2)), color-stop(0.5, rgba(0, 0, 0, 0.15)), color-stop(1, rgba(100, 100, 100, 0))), url(img/pattern1.png);
+      background: -moz-linear-gradient(center top , rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45) 6%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4) 50%, rgba(100, 100, 100, 0)), url(img/pattern1.png);
+      margin-right: 15px;
+    }
+
+    .buttons {
+      float:right;
+    }
+    .buttons li{
+      display: inline;
+    }
+  </style>
 
 
-<script>
-  app.initialize();
+  <script>
+    app.initialize();
     var app = new kendo.mobile.Application(document.body, {
-         platform: "android"
-     });
-</script>
-</body>
+      platform: "android"
+      });
+    </script>
+  </body>
 </html>
