@@ -8,19 +8,11 @@
     <link href="css/reply.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
     <script src="js/kendo.all.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div id="forms" data-role="view" data-title="Reply" data-init="initForm" data-use-native-scrolling="true">
-   <div data-role="view" data-title="Views">
-    <header data-role="header">
-    <div data-role="navbar">
-      <span data-role="view-title"></span>
-      <a data-align="right" data-role="button" class="nav-button" href="index.html">Index</a>
-    </div>
-    </header>
-
-  </div>  
- <form action="./index.html">
+    <form action="./index.html">
       <ul data-role="listview" data-style="inset">
         <li>
         <label>
@@ -88,6 +80,7 @@
 
 
 <script>
+  app.initialize();
     var app = new kendo.mobile.Application(document.body, {
          platform: "android"
      });
