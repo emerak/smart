@@ -36,9 +36,9 @@ var inbox = [
         },
         {
             ID: 6,
-            From: "ATT Services",
-            Subject: "Credit card",
-            Text: "Your credit card has been delivered, if you want to know more about our online...",
+            From: "Tory McCarty",
+            Subject: "Planning meeting",
+            Text: "Hello Tom, we are waiting for your confirmation, please send us an aswer as soon as...",
             Time: "20:09"
         },
         {
