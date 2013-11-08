@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/kendo.common.min.css" rel="stylesheet" />
+    <link href="css/kendo.default.min.css" rel="stylesheet" />
+    <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="css/reply.css" rel="stylesheet" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kendo.all.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/reply.js"></script>
+</head>
+<body>
+    <div id="forms" data-role="view" data-title="Reply" data-init="initForm" data-use-native-scrolling="true">
+    <form action="./index.html">
+      <ul data-role="listview" data-style="inset">
+        <li>
+        <label>
+          To:
+          <input type="email" value="Robert@Cohen.com" />
+        </label>
+        </li>
+        <li>
+        <label>Subject:
+          <input type="text" value="Contact network" />
+        </label>
+        </li>
+        <li>
+        <label>
+          Message: 
+          <textarea rows="4" cols="50" style="resize: none"></textarea>
+        </label>
+        </li>
+      </ul>
+    </form>
+  </div>
+  <div data-role="layout" data-id="mobile-view">
+    <header data-role="header">
+    <div data-role="navbar">
+      <a class="nav-button" data-align="left" data-role="backbutton">Back</a>
+      <span data-role="view-title"></span>
+      <a data-align="right" data-role="button" class="nav-button" href="index.html">Index</a>
+    </div>
+    </header>
+  </div>
+<script>
+    </script>
+
+<style scoped>
+    #forms input:not([type=checkbox]):not([type=radio]),
+    #forms select,
+    #forms .k-dropdown
+    {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+    }
+</style>
+
+
+<script>
+  app.initialize();
+    var app = new kendo.mobile.Application(document.body, {
+         platform: "android"
+     });
+</script>
+</body>
+</html>
