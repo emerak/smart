@@ -77,12 +77,11 @@ var inbox = [
         this.element.find(".km-actionsheet-title").text(e.target.next().text());
     }
 
-    function reply(e) {
-        $("#actionResult").html("Replying to message #" + e.context);
-    }
+    function open(e) {
+         window.location.assign("message.html");    }
 
-    function replyAll(e) {
-        $("#actionResult").html("Replying to all in message #" + e.context);
+    function reply(e) {
+         window.location.assign("reply.html");
     }
 
     function archive(e) {
