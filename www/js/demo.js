@@ -77,8 +77,9 @@ var inbox = [
         this.element.find(".km-actionsheet-title").text(e.target.next().text());
     }
 
-    function open(e) {
-         window.location.assign("message.html");    }
+    function fshow(e) {
+         window.location.assign("show.html");
+    }
 
     function reply(e) {
          window.location.assign("reply.html");
