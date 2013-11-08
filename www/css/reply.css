@@ -20,3 +20,6 @@
   display: inline;
 }
 
+.km-listview-wrapper .cols {
+  width: 51%;
+}
